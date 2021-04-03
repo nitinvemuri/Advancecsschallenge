@@ -33,7 +33,10 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 # Mock-Up
+
 The following animation shows the web application's appearance and functionality:
+![02-advanced-css-homework-demo-1](https://user-images.githubusercontent.com/80983324/113487217-a5dbf780-946b-11eb-8162-f4df0b8b4b10.gif)
+
 
 
 
