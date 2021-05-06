@@ -33,7 +33,10 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 # Mock-Up
+
 The following animation shows the web application's appearance and functionality:
+![02-advanced-css-homework-demo-1](https://user-images.githubusercontent.com/80983324/113487217-a5dbf780-946b-11eb-8162-f4df0b8b4b10.gif)
+
 
 
 
@@ -83,5 +86,14 @@ You are required to submit BOTH of the following for review:
 The URL of the deployed application.
 
 The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+
+
+# Link to Deployed Application
+
+https://nitinvemuri.github.io/Advancecsschallenge/
+
+# Link to Github Repository
+
+https://github.com/nitinvemuri/Advancecsschallenge
 
 
