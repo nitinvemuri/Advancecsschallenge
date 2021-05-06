@@ -207,6 +207,7 @@ body {
     border: solid 1px var(--primary-color);
 }
 
+
 .gallery{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -256,6 +257,16 @@ figcaption {
   grid-row-start: 4;
   grid-row-end: 4;
   position: relative;
+  right: 200px;
+}
+
+.picture-item--3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 4;
+    position: relative;
+    right: 400px;
 }
     
 
@@ -395,11 +406,13 @@ figcaption {
     }
 
     .border-1 {      
-      height: 180px;     
+      height: 180px;
+      display: none;     
     }
 
    .border-2{
-      height: 500px;     
+      height: 500px; 
+        
     }  
 
    .border-3 {
@@ -453,6 +466,18 @@ figcaption {
         top: 50%;
         left: 50%;
         transform: translate(10%,-84%);
+    }
+
+    .picture-item--1 {
+        left:250px;
+    }
+
+    .picture-item--2 {
+        right: 55px;
+    }
+
+    .picture-item--3 {
+        left:200px;
     }
 
   }
