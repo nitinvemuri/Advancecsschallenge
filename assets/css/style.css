@@ -207,6 +207,13 @@ body {
     border: solid 1px var(--primary-color);
 }
 
+.picture-img-3 {
+    width:300%;
+    height: 200px;
+    object-fit: cover;
+    border: solid 1px var(--primary-color);
+}       
+
 
 .gallery{
     display: grid;
@@ -265,6 +272,15 @@ figcaption {
     grid-column-end: 4;
     grid-row-start: 5;
     grid-row-end: 4;
+    position: relative;
+    right: 400px;
+}
+
+.picture-item--4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
     position: relative;
     right: 400px;
 }
