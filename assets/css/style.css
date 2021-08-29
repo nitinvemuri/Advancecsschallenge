@@ -196,6 +196,7 @@ body {
 .picture-img {
     width:500%;
     height: 400px;
+    left: 200px;
     object-fit: cover;
     border: solid 1px var(--primary-color);
 }
@@ -208,11 +209,18 @@ body {
 }
 
 .picture-img-3 {
+    width: 50%;   
+    height: 200px;
+    object-fit: cover;
+    border: solid 1px var(--primary-color);
+}      
+
+.picture-img-4 {
     width:300%;
     height: 200px;
     object-fit: cover;
     border: solid 1px var(--primary-color);
-}       
+}      
 
 
 .gallery{
@@ -248,6 +256,13 @@ figcaption {
     background-color: rgb(229, 232, 238);
   }
 
+.figcaption3 {
+    margin-left: 10px;
+    margin-top: -21%;
+    position:absolute;
+    width: 50px
+}
+
 
 
 .picture-item--1 {
@@ -256,6 +271,7 @@ figcaption {
     grid-row-start: 1;
     grid-row-end: 2;
     position:relative;
+    left: 300px;
 }
 
 .picture-item--2 {
@@ -264,7 +280,7 @@ figcaption {
   grid-row-start: 4;
   grid-row-end: 4;
   position: relative;
-  right: 200px;
+  right: 700px;
 }
 
 .picture-item--3 {
@@ -283,8 +299,17 @@ figcaption {
     grid-row-end: 3;
     position: relative;
     right: 400px;
+    top: 300px;
 }
-    
+
+.picture-item--5 {
+    grid-column-start: 2;
+    grid-column-end:0;
+    grid-row-start: 1;
+    grid-row-end: 0;
+    position: relative;
+    right: 400px;
+} 
 
 
 
@@ -471,6 +496,11 @@ figcaption {
         font-size: 5px;
     }
 
+    .figcaption4 {
+        margin-left: 10px ;
+        margin-top: -25000%;
+        font-size: 5px;
+    }
     .picture-img {
         top: 50%;
         left: 50%;
@@ -484,6 +514,12 @@ figcaption {
         transform: translate(10%,-84%);
     }
 
+    .picture-img-4 {
+        height: 300px;
+        top: 30%;
+        transform: translate(0%,10%);
+    }
+
     .picture-item--1 {
         left:250px;
     }
@@ -494,6 +530,10 @@ figcaption {
 
     .picture-item--3 {
         left:200px;
+    }
+    
+    .picture-item--5 {
+
     }
 
   }
